@@ -13,5 +13,5 @@ int main()
         cout << nums[i] << " ";
     }
     cout << endl;
-    merge_sort(nums, 0, nums.size());
+    quick_sort(nums, 0, nums.size());
 }
